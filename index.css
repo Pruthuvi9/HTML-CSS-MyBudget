@@ -1,0 +1,280 @@
+footer {
+  background-color: black;
+}
+
+footer a {
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  margin: 10%;
+}
+
+footer p {
+  color: white;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Source Sans Pro', sans-serif;
+  /* margin-left: 5%;
+  margin-right: 5%; */
+}
+a {
+  text-decoration: none;
+}
+
+h1, h2, h3 {
+  color: #0a85d1;
+}
+
+h1 {
+  font-size: 4em;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 3em;
+}
+
+h3 {
+  font-size: 1.5em;
+}
+
+#top-navbar {
+  background-color: #eee;
+  padding: 1em;
+}
+
+#top-navbar-buttons {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 0% 10% 0% 10%;
+}
+
+#top-navbar-links {
+  grid-column: 2 / 4;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-content: center;
+  text-align: end;
+}
+
+#top-navbar-links a:link {
+  color: #1ea6fa;
+}
+
+#bottom-navbar {
+  background-color: white;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  margin: 0% 10% 0 10%;
+}
+
+#bottom-navbar a:link {
+  font-family: 'Roboto', sans-serif;
+  color: black;
+  text-decoration: none;
+}
+
+#bottom-navbar img {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+#navbar-links {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+#element-1-container {
+  background-color: #eee;
+}
+
+#element-1 {
+  background-image: url(https://wallpaperaccess.com/full/260164.jpg);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 0% 10% 0 10%;
+  padding: 10% 0 10% 0;
+}
+
+#element-1 h1 {
+  grid-column: 1 / 2;
+}
+
+#element-1 h1 + p {
+  grid-column: 1 / 2;
+  margin-right: 15%;
+  font-size: 1.5em;
+  text-align: justify;
+}
+
+#element-2 {
+  background-color: white;
+  text-align: center;
+  padding: 5%;
+  border-radius: 5px;
+  box-shadow: 0px 0px 20px 20px rgba(0, 0, 0, 0.05);
+  margin: -5% 10% 0 10%;
+}
+
+#element-2 h2 + p {
+  font-size: 1.2em;
+}
+
+#element-2 a {
+  background-color: #0a85d1;
+  color: white;
+  padding: 1.5% 3%;
+  border-radius: 0.5em;
+}
+
+#three-part-column {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 5%;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10%;
+}
+
+#three-part-column h3, p {
+  text-align: center;
+}
+
+#three-part-column img {
+  width: 3em;
+}
+
+#element-3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-content: center;
+  margin: 0% 10% 0 10%;
+}
+
+#column-1 {
+  margin: 10% -5% 10% 10%;
+  border-style: solid;
+  border-color: white;
+}
+
+#column-1 div {
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+
+#column-1 img {
+  width: 100%;
+  border-radius: 50% 0% 0% 0%;
+  /* z-index: 2; */
+}
+
+#column-2 {
+  /* padding: 20%; */
+  background-color: rgba(66, 135, 245, 0.1);
+  border-radius: 50%;
+  margin: 10% 0% 10% 0%;
+  /* width: 60%; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* padding-left: 15%;
+  padding-right: 15%; */
+  z-index: 1;
+  height: 600px;
+  width: 600px;
+}
+
+#column-2 h2 {
+  margin: 0%;
+  text-align: left;
+}
+
+#column-2 ul {
+  list-style: none;
+  margin: 0%;
+}
+
+#column-2 ul li {
+  position: relative;
+	margin-bottom: 1em;
+	padding-left: 2em;
+}
+
+#column-2 ul li::before {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 3em;
+  height: 3em;
+  /* top: 2px; */
+  left: -2em;
+  background-image: url(./icons/tick.png);
+}
+
+#gray-circles {
+  z-index: 3;
+}
+
+#footer-navbar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+#footer-hr {
+  width: 60%;
+  height: 1px;
+  background-color: #0a85d1;
+  border: none;
+}
+
+#footer-nav-1 {
+  width: 50%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+#footer-nav-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 2.5em;
+}
+
+#footer-nav-2 a {
+  width: 100%;
+}
+
+.top-navbar-icons {
+  width: 1em;
+  filter: invert(38%) sepia(92%) saturate(2352%) hue-rotate(180deg) brightness(91%) contrast(92%);
+}
+
+.dot {
+  height: 4em;
+  width: 4em;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.footer-social-icons {
+  display: flex;
+  justify-content: center;
+  filter: invert(38%) sepia(92%) saturate(2352%) hue-rotate(180deg) brightness(91%) contrast(92%);
+}
