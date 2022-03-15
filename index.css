@@ -94,10 +94,11 @@ h3 {
 
 #element-1-container {
   background-color: #eee;
+  background-image: url(https://wallpaperaccess.com/full/260164.jpg);
 }
 
 #element-1 {
-  background-image: url(https://wallpaperaccess.com/full/260164.jpg);
+  /* background-image: url(https://wallpaperaccess.com/full/260164.jpg); */
   display: grid;
   grid-template-columns: 1fr 1fr;
   margin: 0% 10% 0 10%;
